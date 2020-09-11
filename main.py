@@ -8,7 +8,6 @@
 
 
 def getLetterGrade(grade):
-  grade = input("Enter your grade: " + str(grade))
   grade = float(grade)
   if(grade >= 90.00):
     print("Your letter grade for CMPSC 131 is " + lettergrade + ".")
@@ -27,7 +26,7 @@ def getLetterGrade(grade):
   else: 
     print("You have an F.")
 
-#grade = input("Enter your grade: ")
+grade = input("Enter your grade: ")
 lettergrade = str() 
 getLetterGrade(85)
 
