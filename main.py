@@ -7,23 +7,23 @@
 
 
 
-def getLetterGrade()
-grade = input("Enter your grade: ")
-grade = float(grade)
-if(grade >= 90.00):
-  print("Your letter grade for CMPSC 131 is A.")
-elif(grade >= 87.00):
-  print("Your letter grade for CMPSC 131 is B+.")
-elif(grade >= 84.00):
-  print("Your letter grade for CMPSC 131 is B.")
-elif(grade >= 80.00):
-  print("Your letter grade for CMPSC 131 is B-.")
-elif(grade >= 77.00):
-  print("Your letter grade for CMPSC 131 is C+.")
-elif(grade >= 70.00): 
-  print("Your letter grade for CMSC 131 is C.")
-elif(grade >=60):
-  print("Your letter grade for CMPSC 131 is D.")
-else: 
-  print("You have an F.")
-  getLetterGrade()
+def getLetterGrade():
+  grade = input("Enter your grade: ")
+  grade = float(grade)
+  if(grade >= 90.00):
+    print("Your letter grade for CMPSC 131 is A.")
+  elif(grade >= 87.00):
+    print("Your letter grade for CMPSC 131 is B+.")
+  elif(grade >= 84.00):
+    print("Your letter grade for CMPSC 131 is B.")
+  elif(grade >= 80.00):
+    print("Your letter grade for CMPSC 131 is B-.")
+  elif(grade >= 77.00):
+    print("Your letter grade for CMPSC 131 is C+.")
+  elif(grade >= 70.00): 
+    print("Your letter grade for CMSC 131 is C.")
+  elif(grade >=60):
+    print("Your letter grade for CMPSC 131 is D.")
+  else: 
+    print("You have an F.")
+getLetterGrade()
