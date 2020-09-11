@@ -8,26 +8,26 @@
 
 
 def getLetterGrade(grade):
-  grade = input("Enter your grade: ")
+  grade = input("Enter your grade: " + str(grade))
   grade = float(grade)
   if(grade >= 90.00):
-    print("Your letter grade for CMPSC 131 is A.")
+    print("Your letter grade for CMPSC 131 is " + lettergrade + ".")
   elif(grade >= 87.00):
-    print("Your letter grade for CMPSC 131 is B+.")
+    print("Your letter grade for CMPSC 131 is " + lettergrade + ".")
   elif(grade >= 84.00):
-    print("Your letter grade for CMPSC 131 is B.")
+    print("Your letter grade for CMPSC 131 is " + lettergrade + ".")
   elif(grade >= 80.00):
-    print("Your letter grade for CMPSC 131 is B-.")
+    print("Your letter grade for CMPSC 131 is " + lettergrade + ".")
   elif(grade >= 77.00):
-    print("Your letter grade for CMPSC 131 is C+.")
+    print("Your letter grade for CMPSC 131 is " + lettergrade + ".")
   elif(grade >= 70.00): 
-    print("Your letter grade for CMSC 131 is C.")
+    print("Your letter grade for CMSC 131 is " + lettergrade + ".")
   elif(grade >=60):
-    print("Your letter grade for CMPSC 131 is D.")
+    print("Your letter grade for CMPSC 131 is " + lettergrade + ".")
   else: 
     print("You have an F.")
 
-#grade = input("Enter your grade")
+#grade = input("Enter your grade: ")
 lettergrade = str() 
 getLetterGrade(85)
 
